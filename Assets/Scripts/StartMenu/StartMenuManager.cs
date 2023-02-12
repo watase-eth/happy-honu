@@ -5,7 +5,7 @@ using UnityEngine.UI; // for the toggle
 using Thirdweb; // for interacting with the SDK
 using System.Threading.Tasks; // for some async functionality
 
-// this is a combination of Thirdweb tutorial and Watase's Dragon Unity Game example.
+// this is a combination of Thirdweb tutorial and Watase Dragon Unity Game example.
 public class StartMenuManager : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -115,7 +115,7 @@ public class StartMenuManager : MonoBehaviour
       return balance;
     }
 
-    //from Watase's Dragon Game
+    //from Watase Dragon Game
     // public async void ClaimHonu()
     // {
     //     string address = 
