@@ -27,7 +27,7 @@ We hope you enjoy!😀
 
   
 # How to play:
-Use the place bar to swim and avoid the coral.
+Use the space bar to swim and avoid the coral.
 
 # Future possibles updates:
 - Erc20 token as score
