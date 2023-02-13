@@ -290,7 +290,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 213843790}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 236327497}
+        m_TargetAssemblyTypeName: StartMenuManager, Assembly-CSharp
+        m_MethodName: ClaimHonu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &213843790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,11 +459,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ConnectedState: {fileID: 1262691228}
   DisconnectedState: {fileID: 1843424575}
-  ConnectWalletState: {fileID: 0}
-  SelectWallet: {fileID: 0}
-  HasNFTState: {fileID: 0}
-  NoNFTState: {fileID: 0}
-  HonuToggle: {fileID: 0}
+  HasNFTState: {fileID: 1406850805}
+  NoNFTState: {fileID: 1168408150}
   StartGameButton: {fileID: 1509689574}
 --- !u!1 &259072943
 GameObject:
@@ -1173,7 +1182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1168408151
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1219,7 +1228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1262691229
 RectTransform:
   m_ObjectHideFlags: 0

@@ -5,18 +5,18 @@ using UnityEngine.UI; // for the toggle
 using Thirdweb; // for interacting with the SDK
 using System.Threading.Tasks; // for some async functionality
 
-// this is a combination of Thirdweb tutorial and Watase Dragon Unity Game example.
+// this is a combination of Thirdweb tutorial and Watase's Dragon Unity Game example.
 public class StartMenuManager : MonoBehaviour
 {
     // Start is called before the first frame update
     // Create references for the two Game Objects we created
     public GameObject ConnectedState;
     public GameObject DisconnectedState;
-    public GameObject ConnectWalletState;
-    public GameObject SelectWallet;
+    // public GameObject ConnectWalletState;
+    // public GameObject SelectWallet;
     public GameObject HasNFTState;
     public GameObject NoNFTState;
-    public Toggle HonuToggle;
+    // public Toggle HonuToggle;
     public GameObject StartGameButton;
 
     private ThirdwebSDK sdk;
@@ -28,26 +28,22 @@ public class StartMenuManager : MonoBehaviour
       ConnectedState.SetActive(false);
       HasNFTState.SetActive(false);
       NoNFTState.SetActive(false);
-      HonuToggle.isOn = false;
+      // HonuToggle.isOn = false;
 
     }
         // Update is called once per frame
     void Update()
     {
-      if(HonuToggle.isOn)
-        {
-            StartGameButton.SetActive(true);
-        }
-        else
-        {
-            StartGameButton.SetActive(false);
-        }  
+      // if(HonuToggle.isOn)
+      //   {
+      //       StartGameButton.SetActive(true);
+      //   }
+      //   else
+      //   {
+      //       StartGameButton.SetActive(false);
+      //   }  
     }
-    // public void SetSelectWallet()
-    // {
-    //     ConnectWalletState.SetActive(false);
-    //     SelectWallet.SetActive(true);
-    // }
+
     public async void ConnectWallet()
     {
       // Connect to the wallet
@@ -74,23 +70,19 @@ public class StartMenuManager : MonoBehaviour
         .text = address;
       
         
-        string balance = await CheckBalance();
+        string balance = await CheckBalance(address);
 
       // Convert the balance to a float
         float balanceFloat = float.Parse(balance);
-
-      // Create text for the balance depending on if the balance is greater than 0
-        string balanceText =
-        balanceFloat > 0
-          ? "Pick a 🐢 to play:"
-          : "You can't access this without a honu 🐢!";
-
-      // Set the ConnectedStates "Balance" GameObjects text to the wallet balance
-        // ConnectedState
-        //   .transform
-        //   .Find("HasNFTState")
-        //   .GetComponent<TMPro.TextMeshProUGUI>()
-        //   .text = balanceText; 
+        print(balanceFloat);
+        if (balanceFloat > 0) {
+            HasNFTState.SetActive(true);
+            print(true);
+          }
+        else {
+            NoNFTState.SetActive(true);
+            print(false);
+          }
     }
     public void DisconnectWallet()
     {
@@ -102,32 +94,29 @@ public class StartMenuManager : MonoBehaviour
       
     }
 
-    public async Task<string> CheckBalance()
+    public async Task<string> CheckBalance(string address)
     {
-      // Connect to the smart contract
-      // Replace this with your own contract address
-      Contract contract = sdk.GetContract("0x69BC6d095517951Df17f70f38746Bc27CE1C8A62"); 
-         // Replace this with your NFT's token ID
-      string tokenId = "0";
+        Contract contract = sdk.GetContract("0x5e8D21f0bCfD8C57c7dAcE57a2bbd53ad69aa37f");
 
-      // Check the balance of the wallet for this NFT
-      string balance = await contract.ERC1155.Balance(tokenId);
-      return balance;
+        string tokenId = "0";
+
+        string balance = await contract.Read<string>("balanceOf", address, tokenId);
+        print(balance);
+        return balance;
     }
 
-    //from Watase Dragon Game
-    // public async void ClaimHonu()
-    // {
-    //     string address = 
-    //         await sdk
-    //         .wallet
-    //         .Connect(new WalletConnection() {
-    //             provider = WalletProvider.MetaMask,
-    //             chainId = 80001
-    //         });
-    //     Contract contract = sdk.GetContract("0x1a24bD29aC136BC20191F0B79C4Ad4BbeAea6f66");
-    //     await contract.ERC1155.ClaimTo(address, "0", 1);
-    // }
+    public async void ClaimHonu()
+    {
+        string address = 
+            await sdk
+            .wallet
+            .Connect(new WalletConnection() {
+                provider = WalletProvider.MetaMask,
+                chainId = 5
+            });
+        Contract contract = sdk.GetContract("0x5e8D21f0bCfD8C57c7dAcE57a2bbd53ad69aa37f");
+        await contract.ERC1155.ClaimTo(address, "0", 1);
+    }
     
 
 }
