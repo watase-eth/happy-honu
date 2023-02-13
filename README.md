@@ -12,7 +12,7 @@ We hope you enjoy!😀
 ### 
 ### 🐱‍💻This project was created for the Thirdweb "Ready Player 3" Hackathon.
 
-# 🏫Our Team consisted of:
+### 🏫Our Team consisted of:
  - Cracka https://twitter.com/abasedape 
  - Kanti https://twitter.com/bigbro_kanti
  - Hapadev https://twitter.com/thehapadev
@@ -20,16 +20,16 @@ We hope you enjoy!😀
  - TalonDragon000 https://twitter.com/talondragon000
  - Watase https://twitter.com/watase_eth
 
-# Features:
+### Features:
 - Connect Unity WebGL to a EVM compatible wallet.
 - Thirdweb SDK allows us to read and verify tokens within connected wallet.
 - Allows user to sign transactions within our game and call functions within our contracts.
 
   
-# How to play:
+### How to play:
 Use the space bar to swim and avoid the coral.
 
-# Future possibles updates:
+### Future possibles updates:
 - Erc20 token as score
 - Create in game marketplace for purchasing addition items and nfts with ERC20 tokens.
 - Lootbox system.
