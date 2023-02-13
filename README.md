@@ -13,12 +13,12 @@ We hope you enjoy!😀
 🐱‍💻 This project was created for the Thirdweb "Ready Player 3" Hackathon.
 
 ### 🏫 Our Team consisted of:
- - Cracka https://twitter.com/abasedape - UI design, character and environment design.
- - Kanti https://twitter.com/bigbro_kanti - Project management, game asset design, scenario.gg for background assets.
- - Hapadev https://twitter.com/thehapadev - Test and Deploy, Thirdweb SDK and support, and doc submission.
- - Haunani https://twitter.com/HaunaniPao - Main developer in Unity and c# scripting. Thirdweb SDK and wallet/NFT connection.
- - TalonDragon000 https://twitter.com/talondragon000 - character design and project management
- - Watase https://twitter.com/watase_eth - advisor and mentor
+ - [Cracka](https://github.com/abasedape) - UI design, character and environment design. [twitter](https://twitter.com/abasedape)
+ - [Kanti](https://github.com/CryptoKnyte) - Project management, game asset design, scenario.gg for background assets. [twitter](https://twitter.com/bigbro_kanti)
+ - [Hapadev](https://github.com/jennyriess) - Test and Deploy, Thirdweb SDK and support, and doc submission. [twitter](https://twitter.com/thehapadev)
+ - [Haunani](https://github.com/haunanipao) - Main developer in Unity and c# scripting, Thirdweb SDK and wallet/NFT connection. [twitter](https://twitter.com/HaunaniPao)
+ - [TalonDragon000](https://github.com/TalonDragon000) - Character design, project management and vibes checker. [twitter](https://twitter.com/talondragon000)
+ - [Watase](https://github.com/watase-eth) - Thirdweb advisor and mentor. [twitter](https://twitter.com/watase_eth)
 
 ### Features:
 - Connect Unity WebGL to a EVM compatible wallet.
@@ -39,4 +39,4 @@ Use the space bar to swim and avoid the coral.
 - Blockchain macro game. 
 <br>
 
-*These may or may not be included in the final version of the product.*
+Made with 💜 and aloha from Hawai'i and Aotearoa/NZ.
