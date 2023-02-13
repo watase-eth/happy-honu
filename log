@@ -1,0 +1,115 @@
+commit ec0a84b62d021782069cdf7ba0ed54f36940e594
+Author: Haunani Pao <hello@uxauckland.com>
+Date:   Sun Feb 12 15:31:35 2023 +1300
+
+    change in text
+
+commit 1c068a5ce53caca7befddcf0f0ed97ec79721225
+Author: Haunani Pao <hello@uxauckland.com>
+Date:   Sun Feb 12 14:43:47 2023 +1300
+
+    prep
+
+commit 33b8b5404015e917ee8986c3920ff7055bd3255d
+Author: Haunani Pao <hello@uxauckland.com>
+Date:   Sun Feb 12 14:29:31 2023 +1300
+
+    prep for pull request
+
+commit 74495a6977d72a1fc122f5e2746769c98d3e3cdf
+Author: Haunani Pao <hello@uxauckland.com>
+Date:   Sat Feb 11 17:25:04 2023 +1300
+
+    Start Menu to use NFT to play - still need wallet connection
+
+commit f60052e21a148e7486ddb2cbbcbaf8b1f57f7404
+Author: Haunani Pao <hello@uxauckland.com>
+Date:   Fri Feb 10 17:23:28 2023 +1300
+
+    reset
+
+commit 58c5c32c5ab95f13109deaf8af58547903360064
+Author: Haunani Pao <hello@uxauckland.com>
+Date:   Thu Feb 9 14:12:17 2023 +1300
+
+    master
+
+commit ca4ba42d63b36a616a3b44f41884e4eb16f82d48
+Merge: 6f61b94 6297866
+Author: Cracka <90441761+abasedape@users.noreply.github.com>
+Date:   Tue Feb 7 22:48:40 2023 -1000
+
+    Merge pull request #4 from watase-eth/demo-unity
+    
+    Demo unity
+
+commit 6297866eb564d1412788ae23633b68953316df9c
+Merge: 6f61b94 766a845
+Author: Jenny Riess <34553843+jennyriess@users.noreply.github.com>
+Date:   Tue Feb 7 19:15:48 2023 -1000
+
+    Merge pull request #3 from haunanipao/game
+    
+    Game
+
+commit 766a84545d2a0fa20e9f0a81a927f735b6864a9c
+Author: Haunani Pao <hello@uxauckland.com>
+Date:   Wed Feb 8 17:58:19 2023 +1300
+
+    game on. cheers Hapa
+
+commit 0811cd5410a8655f3e6b790ae50a375ce2b57742
+Author: Haunani Pao <hello@uxauckland.com>
+Date:   Wed Feb 8 17:56:26 2023 +1300
+
+    Got the game bit working more. cheers Hapa for help
+
+commit 6f61b942e5c8d09c26110e7b054bffb322584745
+Merge: 2ce85d0 69e7671
+Author: Cracka <90441761+abasedape@users.noreply.github.com>
+Date:   Wed Feb 1 20:08:20 2023 -1000
+
+    Merge pull request #2 from watase-eth/cracka
+    
+    added the backgrounds to assets
+
+commit 2ce85d03766a5bd46e0497293f70dde69aa9fd5a
+Merge: b31885c 22d9671
+Author: Jenny Riess <34553843+jennyriess@users.noreply.github.com>
+Date:   Wed Jan 25 19:20:33 2023 -1000
+
+    Merge pull request #1 from jennyriess/main
+    
+    testing
+
+commit 22d9671c05205d76d8d7dc6801274a0f74ac722b
+Author: Jenny Riess <jennyriess@gmail.com>
+Date:   Wed Jan 25 19:18:56 2023 -1000
+
+    testing
+
+commit 69e7671fe3b903607cb5dd4410d1181938c500e2
+Author: cracka <skylor808@gmail.com>
+Date:   Mon Jan 23 22:45:41 2023 -1000
+
+    added the backgrounds to assets
+
+commit b31885ce66c0ff154e1fd35f2af3ac52346d343b
+Author: TalonDragon000 <88998252+TalonDragon000@users.noreply.github.com>
+Date:   Mon Jan 23 15:53:39 2023 -1000
+
+    created a README.md
+
+commit efbcc638acedf625394b7a28df6f59806b84646a
+Author: Watase <seankwatase@gmail.com>
+Date:   Mon Jan 23 12:17:47 2023 -1000
+
+    Initial Commit
+    
+    Happy Honu Unity. Base Unity template for 2D core game.
+
+commit 09c110d9b5898a35b46996a8c3ff4ebe442fe96d
+Author: Watase <96359175+watase-eth@users.noreply.github.com>
+Date:   Mon Jan 23 12:11:58 2023 -1000
+
+    Initial commit
