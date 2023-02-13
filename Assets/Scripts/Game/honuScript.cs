@@ -5,9 +5,13 @@ using UnityEngine;
 public class honuScript : MonoBehaviour
 {
     public Rigidbody2D myRigidbody;
+    public Animator animator;
     public float flapStrength;
     public logicScript logic;
     public bool honuIsAlive = true;
+
+    float verticalMove = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +21,16 @@ public class honuScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && honuIsAlive) 
+        if (Input.GetKeyDown(KeyCode.Space) && honuIsAlive)
         {
-          myRigidbody.velocity = Vector2.up * flapStrength;    
+            myRigidbody.velocity = Vector2.up * flapStrength;
+            verticalMove = 1;
         }
+        else if (myRigidbody.velocity.y < 1)
+        {
+            verticalMove = 0;
+        }
+        animator.SetFloat("Speed", verticalMove);
         // if (transform.position.y > 17 || transform.position.y < -17 )  // off the screen
     }
 

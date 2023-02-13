@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 566
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e62efb07aa1fd4d90252e06433f0df
+      internalID: -1651422489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 850
+        width: 566
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ed71d1893cce34db5a2859d74313a7
+      internalID: 538562097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 850
+        width: 566
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5decbb03b1c5ce45a118cbd9bc4a868
+      internalID: -2111634051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 850
+        width: 566
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85538e0ae28d6242b8a260a4a956bc7
+      internalID: 1090595551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474.33334
+        width: 565.5
+        height: 323.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45282388d0f0d14f9682b782bddf5dc
+      internalID: 1204620957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 474.33334
+        width: 565.5
+        height: 323.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d954ec9ebe6d1594baeb2cd6d724d77a
+      internalID: -972183760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 474.33334
+        width: 565.5
+        height: 323.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5338daf354440cb45a220c72348c9c13
+      internalID: -495439218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 474.33334
+        width: 565.5
+        height: 323.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03da4499255d8947b16033ec6db6b5e
+      internalID: -463378988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 566
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96c065d6eaa7af4f8088eca9480671d
+      internalID: 1130495072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 100
+        width: 566
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc173e45bfb83b429cf604455311d28
+      internalID: -1739967481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 130
+        width: 566
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e79f55a4d93fd4cb00567fa79c4929
+      internalID: 759640803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy_honu_swim_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 130
+        width: 566
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68098dab3bdefb240851fd2208fb0c76
+      internalID: 938192773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +378,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      happy_honu_swim_spritesheet_3: 1090595551
+      happy_honu_swim_spritesheet_4: 1204620957
+      happy_honu_swim_spritesheet_0: -1651422489
+      happy_honu_swim_spritesheet_10: 759640803
+      happy_honu_swim_spritesheet_1: 538562097
+      happy_honu_swim_spritesheet_5: -972183760
+      happy_honu_swim_spritesheet_6: -495439218
+      happy_honu_swim_spritesheet_2: -2111634051
+      happy_honu_swim_spritesheet_7: -463378988
+      happy_honu_swim_spritesheet_11: 938192773
+      happy_honu_swim_spritesheet_8: 1130495072
+      happy_honu_swim_spritesheet_9: -1739967481
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
