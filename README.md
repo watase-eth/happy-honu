@@ -6,11 +6,11 @@ We've taken heavy inspiration from Flappy Bird, but we've decided to give it a H
 
 We hope you enjoy!😀
 
-# 🕸Happy Honu is a game that we created in Unity, which uses the Thirdweb SDK to connect to wallets and interact with contracts on the blockchain.
-
-# 📖It's open source! Fork this repo!
-
-# 🐱‍💻This project was created for the Thirdweb "Ready Player 3" Hackathon.
+### 🕸Happy Honu is a game that we created in Unity, which uses the Thirdweb SDK to connect to wallets and interact with contracts on the blockchain.
+### 
+### 📖It's open source! Fork this repo!
+### 
+### 🐱‍💻This project was created for the Thirdweb "Ready Player 3" Hackathon.
 
 # 🏫Our Team consisted of:
  - Cracka https://twitter.com/abasedape 
