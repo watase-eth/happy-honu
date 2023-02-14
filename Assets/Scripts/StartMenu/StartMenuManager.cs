@@ -17,8 +17,8 @@ public class StartMenuManager : MonoBehaviour
     // public GameObject SelectWallet;
     public GameObject HasNFTState;
     public GameObject NoNFTState;
-    public Toggle HonuToggle;
-    public GameObject StartGameButton;
+    // public Toggle HonuToggle;
+    // public GameObject StartGameButton;
 
     private ThirdwebSDK sdk;
     void Start()
@@ -29,26 +29,16 @@ public class StartMenuManager : MonoBehaviour
       ConnectedState.SetActive(false);
       HasNFTState.SetActive(false);
       NoNFTState.SetActive(false);
-      HonuToggle.isOn = false;
+      // HonuToggle.isOn = false;
 
     }
 
     private void Update() {
-      PlayGame();
+      
     }
-    public void PlayGame()
-    {
-      if(HonuToggle.isOn)
-        {
-            StartGameButton.SetActive(true);
-        }
-        else
-        {
-            StartGameButton.SetActive(false);
-        }  
-    }
-
-    public async void ConnectWallet()
+    
+    
+     public async void ConnectWallet()
     {
       // Connect to the wallet
       string address =
@@ -122,5 +112,8 @@ public class StartMenuManager : MonoBehaviour
         await contract.ERC1155.ClaimTo(address, "0", 1);
     }
     
-
+        public void loadGame(string sceneName)
+        {
+          SceneManager.LoadScene(sceneName);
+        }
 }
