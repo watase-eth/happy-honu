@@ -6,7 +6,7 @@ using Thirdweb; // for interacting with the SDK
 using System.Threading.Tasks; // for some async functionality
 using UnityEngine.SceneManagement;
 
-// this is a combination of Thirdweb tutorial and Watase's Dragon Unity Game example.
+
 public class StartMenuManager : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -29,11 +29,14 @@ public class StartMenuManager : MonoBehaviour
       ConnectedState.SetActive(false);
       HasNFTState.SetActive(false);
       NoNFTState.SetActive(false);
-      // HonuToggle.isOn = false;
+      HonuToggle.isOn = false;
 
     }
-        // Update is called once per frame
-    void Update()
+
+    private void Update() {
+      PlayGame();
+    }
+    public void PlayGame()
     {
       if(HonuToggle.isOn)
         {
